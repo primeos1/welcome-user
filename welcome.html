@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome User</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-4 col-sm-6 card p-0">
+        <div class="card-title" >
+            <h2>Welcome User 1</h2>
+        </div>
+        <div class="card-body p-5">
+            <label for="points"><h4>Points</h4></label>
+            <input type="text" class="unedit mx-4" id="unedi" value="0">
+            <div class="enter p-5">
+                <input type="text" id="amounts"  placeholder="Input Amount"/> <br>
+                <button type="button" onclick="myFunction()"  class="btn-roll m-4">Enter</button>
+                <p id="demo"> </p>
+            </div>
+      
+        </div>
+        <div class="totalpoint">
+            <p>total point becomes</p>
+            <input type="text" class="unedit mx-4" id="uned" value="0">
+        </div>
+        <div class="in">
+            <p>history of amount becomes</p>
+            <input type="text" class="unedit mx-4" id="inpu"  value="0">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
